@@ -1,2 +1,3 @@
-# auto_tests_cource
+# Homework
+
 Repository for my programs
