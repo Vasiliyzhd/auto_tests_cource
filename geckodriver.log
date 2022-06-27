@@ -1,0 +1,41 @@
+1656323429530	geckodriver	INFO	Listening on 127.0.0.1:60116
+1656323432575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60117" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhdan\\AppData\\Local\\Temp\\rust_mozprofiletH08ik"
+1656323432985	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60117
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhdan\\AppData\\Local\\Temp\\rust_mozprofiletH08ik\\search.json.mozlz4", (void 0)))
+1656323434505	Marionette	INFO	Listening on port 60136
+DevTools listening on ws://localhost:60117/devtools/browser/0b67cd50-f8f6-43a1-96dc-05f46db89d11
+Read port: 60136
+1656323434576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1655729925, line 6289: unreachable code after return statement
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656323438705	Marionette	INFO	Stopped listening on port 60136
+1656323441373	geckodriver	INFO	Listening on 127.0.0.1:60201
+1656323444439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60202" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhdan\\AppData\\Local\\Temp\\rust_mozprofileUH9kyF"
+1656323444849	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60202
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhdan\\AppData\\Local\\Temp\\rust_mozprofileUH9kyF\\search.json.mozlz4", (void 0)))
+1656323446343	Marionette	INFO	Listening on port 60221
+DevTools listening on ws://localhost:60202/devtools/browser/b7b5f0e9-461d-451a-bd67-384e7e304897
+Read port: 60221
+1656323446450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1655729925, line 6289: unreachable code after return statement
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:332:65
+unregisterCommandsActor@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:396:15
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2132:3
+onClosed@chrome://remote/content/marionette/server.js:209:17
+close@chrome://remote/content/marionette/transport.js:221:18
+onInputStreamReady@chrome://remote/content/marionette/transport.js:375:14
+
+1656324005787	geckodriver	INFO	Listening on 127.0.0.1:60474
+1656324008833	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60475" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zhdan\\AppData\\Local\\Temp\\rust_mozprofiles0VlC7"
+1656324009240	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60475
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\zhdan\\AppData\\Local\\Temp\\rust_mozprofiles0VlC7\\search.json.mozlz4", (void 0)))
+1656324010780	Marionette	INFO	Listening on port 60494
+DevTools listening on ws://localhost:60475/devtools/browser/e3998f55-a53a-4414-9a4c-517d781b49d3
+Read port: 60494
+1656324010841	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1655729925, line 6289: unreachable code after return statement
